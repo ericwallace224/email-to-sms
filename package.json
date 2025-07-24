@@ -1,0 +1,16 @@
+{
+  "name": "email-to-sms-webhook",
+  "version": "1.0.0",
+  "description": "Webhook to convert emails to SMS notifications",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
